@@ -1,0 +1,66 @@
+{
+  "card_data": [
+    {
+      "title": "title ini di ubah dengan patch",
+      "body": "saya ubah body dengan patch",
+      "img": "https://picsum.photos/seed/13/300",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "ini adalah title 2",
+      "body": "ini adalah body 2",
+      "img": "https://picsum.photos/seed/15/300"
+    },
+    {
+      "id": 3,
+      "title": "ini adalah title 3",
+      "body": "ini adalah body 3",
+      "img": "https://picsum.photos/seed/15/300"
+    },
+    {
+      "id": 4,
+      "title": "ini adalah title 4",
+      "body": "ini adalah body 4",
+      "img": "https://picsum.photos/seed/15/300"
+    },
+    {
+      "id": 5,
+      "title": "ini adalah title 5",
+      "body": "ini adalah body 5",
+      "img": "https://picsum.photos/seed/15/300"
+    },
+    {
+      "id": 6,
+      "title": "ini adalah title 6",
+      "body": "ini adalah body 6",
+      "img": "https://picsum.photos/seed/15/300"
+    },
+    {
+      "title": "contoh masukin data baru",
+      "body": "ini contoh data baru",
+      "img": "https://picsum.photos/seed/150/300",
+      "id": 7
+    }
+  ],
+  "barang": [
+    {
+      "id": 1,
+      "nama_barang": "handphone",
+      "harga": 500000,
+      "qty": 1000
+    },
+    {
+      "id": 2,
+      "nama_barang": "laptop",
+      "harga": 1000000,
+      "qty": 500
+    },
+    {
+      "id": 3,
+      "nama_barang": "tablet",
+      "harga": 350000,
+      "qty": 500
+    }
+  ]
+}

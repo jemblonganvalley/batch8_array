@@ -9,11 +9,20 @@ const App = document.getElementById("App");
 App.innerHTML += `
 
     ${Navbar()}
-
-    ${cardData
-      .map((e) => {
-        return Card(e.id, e.title, e.body, e.img);
-      })
-      .join("")}
    
 `;
+
+fetch("http://localhost:3000/card_data", {
+  method: "GET",
+  headers: {
+    "Content-Type": "application/json",
+  },
+})
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data);
+    data.map((e) => {
+      App.innerHTML += Card(e.id, e.title, e.body, e.img);
+    });
+  })
+  .catch((err) => console.log(err));

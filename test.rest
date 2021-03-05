@@ -1,0 +1,41 @@
+###
+GET http://localhost:3000/card_data
+Content-Type: application/json
+
+###
+GET http://localhost:3000/barang
+Content-Type: application/json
+
+
+###
+POST http://localhost:3000/card_data
+Content-Type: application/json
+
+{
+    "title" : "contoh masukin data baru",
+    "body" : "ini contoh data baru",
+    "img" : "https://picsum.photos/seed/150/300" 
+}
+
+###
+DELETE http://localhost:3000/card_data/7
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/card_data/1
+Content-Type: application/json
+
+{
+    "title" : "ini sudah di ubah",
+    "body" : "ini body yang di ubah",
+    "img" : "https://picsum.photos/seed/13/300"
+}
+
+###
+PATCH http://localhost:3000/card_data/1
+Content-Type: application/json
+
+{
+    "title" : "title ini di ubah dengan patch"
+}
+
