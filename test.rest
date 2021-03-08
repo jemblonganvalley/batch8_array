@@ -12,9 +12,9 @@ POST http://localhost:3000/card_data
 Content-Type: application/json
 
 {
-    "title" : "contoh masukin data baru",
-    "body" : "ini contoh data baru",
-    "img" : "https://picsum.photos/seed/150/300" 
+    "title" : "test masukin data lagi",
+    "body" : "text masukin data lagi",
+    "img" : "https://picsum.photos/seed/354/300" 
 }
 
 ###

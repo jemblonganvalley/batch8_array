@@ -41,6 +41,18 @@
       "body": "ini contoh data baru",
       "img": "https://picsum.photos/seed/150/300",
       "id": 7
+    },
+    {
+      "title": "test masukin data",
+      "body": "text masukin data",
+      "img": "https://picsum.photos/seed/1526/300",
+      "id": 8
+    },
+    {
+      "title": "test masukin data lagi",
+      "body": "text masukin data lagi",
+      "img": "https://picsum.photos/seed/354/300",
+      "id": 9
     }
   ],
   "barang": [

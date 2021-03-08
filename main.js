@@ -12,16 +12,15 @@ App.innerHTML += `
    
 `;
 
-fetch("http://localhost:3000/card_data", {
+axios("http://localhost:3000/card_data", {
   method: "GET",
   headers: {
     "Content-Type": "application/json",
   },
 })
-  .then((res) => res.json())
   .then((data) => {
     console.log(data);
-    data.map((e) => {
+    data.data.map((e) => {
       App.innerHTML += Card(e.id, e.title, e.body, e.img);
     });
   })
